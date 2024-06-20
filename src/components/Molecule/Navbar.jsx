@@ -14,7 +14,7 @@ window.scrollTo({
   return (
     <div className="flex justify-between items-center bg-white p-4 h-[60px] border-b-2 border-theme-color ">
       <Link to={"/"}>
-        <img onClick={scrollToTop} src={navData.left} alt="" />
+        <img onClick={scrollToTop} src={navData.left} alt="" className="md:w-[100%] md:h-[100%] w-[80px] " />
       </Link>
       <div className="md:flex gap-6 hidden ">
         {navData.center.map((data, index) => {
