@@ -28,8 +28,8 @@ const Suggestions = () => {
         {suggestionsData.map((item, index) => {
           return (
             <a href="#" key={index} className="flex flex-col  items-center  hover:scale-105 transition hover:transform duration-500 ">
-              <img src={item.productImage} alt="" loading="lazy"  className="w-[190px] h-[130px]  object-contain  rounded-3xl "/>
-              <p>{item.productName}</p>
+              <img src={item.productImage} alt="" loading="lazy"  className="md:w-[190px] md:h-[130px]  object-contain  md:rounded-3xl "/>
+              <p className="text-[12px] md:text-[14px] font-[500] text-slate-600">{item.productName}</p>
             </a>
           );
         })}

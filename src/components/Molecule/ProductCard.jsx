@@ -12,10 +12,10 @@ const ProductCard = ({ productData }) => {
   } = productData;
   return (
     <div>
-      <div className="md:w-[250px] border  rounded ">
+      <div className="md:w-[250px] w-[200px] border  rounded ">
         <div className="">
           <img
-            className=" rounded-t-md md:w-[250px] md:h-[150px] object-contain border-b "
+            className=" rounded-t-md md:w-[250px] w-[100%] h-[100px] md:h-[150px] object-contain border-b "
             loading="lazy"
             src={imageSrc}
             alt=""

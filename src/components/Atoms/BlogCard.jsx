@@ -5,10 +5,10 @@ const BlogCard = ({ blogData }) => {
   console.log("blogData", blogData);
   const { blogName, blogImage, blogDesc, blogDate } = blogData;
   return (
-    <div className="w-[300px] border  hover:shadow duration-300  rounded">
+    <div className="md:w-[300px] w-[250px] border  hover:shadow duration-300  rounded">
       <a href="">
         <img
-          src={blogImage}
+          src={blogImage}s
           alt={blogName}
           className="rounded-t w-full h-[150px] object-cover "
         />
