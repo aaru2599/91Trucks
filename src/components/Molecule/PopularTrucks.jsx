@@ -4,7 +4,6 @@ import Heading from "../Atoms/Heading";
 import ProductCard from "./ProductCard";
 import DealerCard from "../Atoms/DealerCard";
 import "/src/App.css";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import BlogCard from "../Atoms/BlogCard";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 // const popularData = mostPopularData;
@@ -15,7 +14,7 @@ const PopularTrucks = ({ popularData }) => {
     setSelectedCategory(index);
   };
   const hasManyProducts = category[selectedCategory]?.products?.length >= 4;
-  const hasManyBlogs = category[selectedCategory]?.blogDetails?.length >= 3;
+  // const hasManyBlogs = category[selectedCategory]?.blogDetails?.length >= 3;
   
   const containerRef = useRef(null);
   const scrollLeft = () => {

@@ -4,11 +4,11 @@ import '/src/components/Molecule/Carousel.css'
 
 const carouselData = [
   {
-    imgURL: "/src/assets/image/banner2.png",
+    imgURL: "/image/banner1.png",
     imgLink: "",
   },
   {
-    imgURL: "/src/assets/image/banner1.png",
+    imgURL: "/image/banner2.png",
     imgLink: "",
   },
 ];

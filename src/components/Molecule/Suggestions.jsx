@@ -28,7 +28,7 @@ const Suggestions = () => {
         {suggestionsData.map((item, index) => {
           return (
             <a href="#" key={index} className="flex flex-col  items-center  hover:scale-105 transition hover:transform duration-500 ">
-              <img src={item.productImage} alt=""  className="border rounded-3xl "/>
+              <img src={item.productImage} alt="" loading="lazy"  className="w-[190px] h-[130px]  object-contain  rounded-3xl "/>
               <p>{item.productName}</p>
             </a>
           );

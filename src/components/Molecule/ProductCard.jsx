@@ -2,11 +2,11 @@ const ProductCard = ({ productData }) => {
   console.log(productData);
   const {
     imageSrc,
-    imagesLink,
-    offerLink,
+    // imagesLink,
+    // offerLink,
     price,
     specs,
-    star,
+    // star,
     title,
     variant,
   } = productData;
@@ -16,6 +16,7 @@ const ProductCard = ({ productData }) => {
         <div className="">
           <img
             className=" rounded-t-md md:w-[250px] md:h-[150px] object-contain border-b "
+            loading="lazy"
             src={imageSrc}
             alt=""
           />

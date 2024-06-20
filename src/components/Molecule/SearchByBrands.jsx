@@ -233,7 +233,7 @@ const SearchByBrands = ({ searchByData }) => {
   return (
     <div>
       <div className="flex flex-col gap-2 ">
-        <div>{heading}</div>
+        <div className="font-[500]">{heading}</div>
         <div className="grid grid-cols-3 gap-2">
           {(showAll ? cardData : cardData.slice(0, 9)).map((product, i) => {
             return (
@@ -241,7 +241,7 @@ const SearchByBrands = ({ searchByData }) => {
                 onClick={scrollToTop}
                 to={`/${title[1]}/${product.name}`}
                 key={i}
-                className={`flex flex-col items-center border w-[80px] h-[80px] p-2 rounded shadow ${
+                className={`flex flex-col items-center border w-[80px] h-[80px] p-2 rounded  hover:shadow-lg duration-200 ${
                   showAll && i >= 9 ? "animate-fadeIn" : ""
                 }`}
               >

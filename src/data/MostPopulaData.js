@@ -13,7 +13,9 @@ export const mostPopulaTruck = {
           viewPriceLink: "#view-price",
           imagesLink: "#images",
           offerLink: "#offer",
-          imageSrc: "/src/assets/image/montra/montra.png",
+          imageSrc:
+          "/image/montra/montra.png"
+         
         },
       ],
     },
@@ -46,7 +48,7 @@ export const mostPopulaTruck = {
           star: 4,
           imagesLink: "#images",
           offerLink: "#offer",
-          imageSrc: "/src/assets/image/popular-truck/popular1.png",
+          imageSrc: "/image/popular-truck/popular1.png",
         },
         {
           title: "Tata Intra V30",
@@ -57,7 +59,7 @@ export const mostPopulaTruck = {
           variant: "5 Variant",
           imagesLink: "#images",
           offerLink: "#offer",
-          imageSrc: "/src/assets/image/popular-truck/popular2.png",
+          imageSrc: "/image/popular-truck/popular2.png",
         },
         {
           title: "Tata Intra V20 Bi-Fuel",
@@ -68,7 +70,7 @@ export const mostPopulaTruck = {
           variant: "2 Variant",
           imagesLink: "#images",
           offerLink: "#offer",
-          imageSrc: "/src/assets/image/popular-truck/popular3.png",
+          imageSrc: "/image/popular-truck/populer3.png",
         },
         {
           title: "Tata Intra V30",
@@ -79,7 +81,7 @@ export const mostPopulaTruck = {
           imagesLink: "#images",
           variant: "2 Variant",
           offerLink: "#offer",
-          imageSrc: "/src/assets/image/popular-truck/popular4.png",
+          imageSrc: "/image/popular-truck/populer4.png",
         },
       ],
     },
@@ -95,7 +97,7 @@ export const mostPopulaTruck = {
           star: 5,
           imagesLink: "#images",
           offerLink: "#offer",
-          imageSrc: "/src/assets/image/pick-up/pickup1.png",
+          imageSrc: "/image/pick-up/pickup1.png",
         },
         {
           title: " Super Auto",
@@ -106,7 +108,7 @@ export const mostPopulaTruck = {
           variant: "1 Variant",
           imagesLink: "#images",
           offerLink: "#offer",
-          imageSrc: "/src/assets/image/pick-up/pickup1.png",
+          imageSrc: "/image/pick-up/pickup1.png",
         },
         {
           title: " Super Auto",
@@ -117,7 +119,7 @@ export const mostPopulaTruck = {
           star: 5,
           imagesLink: "#images",
           offerLink: "#offer",
-          imageSrc: "/src/assets/image/pick-up/pickup1.png",
+          imageSrc: "/image/pick-up/pickup1.png",
         },
         {
           title: " Super Auto",
@@ -128,7 +130,7 @@ export const mostPopulaTruck = {
           imagesLink: "#images",
           offerLink: "#offer",
           variant: "8 Variant",
-          imageSrc: "/src/assets/image/pick-up/pickup1.png",
+          imageSrc: "/image/pick-up/pickup1.png",
         },
       ],
     },
@@ -144,7 +146,7 @@ export const mostPopulaTruck = {
           star: 2,
           imagesLink: "#images",
           offerLink: "#offer",
-          imageSrc: "/src/assets/image/electric/electric1.png",
+          imageSrc: "/image/electric/electric1.png",
         },
         {
           title: "Montra Super Auto",
@@ -155,7 +157,7 @@ export const mostPopulaTruck = {
           star: 2,
           imagesLink: "#images",
           offerLink: "#offer",
-          imageSrc: "/src/assets/image/electric/electric1.png",
+          imageSrc: "/image/electric/electric1.png",
         },
       ],
     },
@@ -171,7 +173,7 @@ export const mostPopulaTruck = {
           imagesLink: "#images",
           offerLink: "#offer",
           star: 3,
-          imageSrc: "src/assets/image/dumper/dumper1.png",
+          imageSrc: "/image/dumper/dumper1.png",
         },
         {
           title: "Montra Super Auto",
@@ -182,7 +184,7 @@ export const mostPopulaTruck = {
           imagesLink: "#images",
           offerLink: "#offer",
           star: 3,
-          imageSrc: "src/assets/image/dumper/dumper1.png",
+          imageSrc: "/image/dumper/dumper1.png",
         },
         {
           title: "Montra Super Auto",
@@ -193,7 +195,7 @@ export const mostPopulaTruck = {
           imagesLink: "#images",
           offerLink: "#offer",
           star: 3,
-          imageSrc: "src/assets/image/dumper/dumper1.png",
+          imageSrc: "/image/dumper/dumper1.png",
         },
         {
           title: "Montra Super Auto",
@@ -204,7 +206,7 @@ export const mostPopulaTruck = {
           variant: "1 Variant",
           offerLink: "#offer",
           star: 3,
-          imageSrc: "src/assets/image/dumper/dumper1.png",
+          imageSrc: "/image/dumper/dumper1.png",
         },
         {
           title: "Montra Super Auto",
@@ -215,7 +217,7 @@ export const mostPopulaTruck = {
           imagesLink: "#images",
           offerLink: "#offer",
           star: 3,
-          imageSrc: "src/assets/image/dumper/dumper1.png",
+          imageSrc: "/image/dumper/dumper1.png",
         },
       ],
     },
