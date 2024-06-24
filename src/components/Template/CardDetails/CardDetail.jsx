@@ -5,12 +5,12 @@ import RightSide from "./RightSide";
 
 const CardDetail = () => {
   return (
-    <div>
-      <div className="sticky top-0 z-30">
+    <div className="flex  flex-col gap-2">
+      <div className="sticky top-0 z-30 ">
       <Navbar />
       </div>
       <div className="flex gap-4">
-        <div className="lg:w-1/5 md:block hidden">
+        <div className="lg:w-1/5 md:block hidden ">
         <LeftSide />
         </div>
         <div className="lg:w-4/5">

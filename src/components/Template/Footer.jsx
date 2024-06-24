@@ -54,7 +54,7 @@ const centerData = [
 const rightData = ["Feedback", "Privacy Policy", "Consent Declaration"];
 const Footer = () => {
   return (
-    <div className="flex flex-col md:items-center gap-4 bg-white p-4">
+    <div className=" flex flex-col md:items-center gap-4 bg-white p-4">
       <div className="flex flex-col md:flex-row md:gap-24 gap-4">
         <div className="flex flex-col md:gap-4 gap-2">
           <div>

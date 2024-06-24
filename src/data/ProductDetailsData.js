@@ -1,26 +1,5 @@
 export const products = [
-  {
-    title: "Tata Intra V30",
-    price: "₹8.11 Lakh",
-    variant: "3 Variant",
-    specs: "Petrol , 70 HP, 4 cylinders, 1496 cc, 3 13",
-    viewPriceLink: "#view-price",
-    star: 4,
-    imagesLink: "#images",
-    offerLink: "#offer",
-    imageSrc: "/src/assets/image/popular-truck/popular1.png",
-  },
-  {
-    title: "Tata Intra V30",
-    price: "₹8.11 Lakh",
-    specs: "Petrol , 70 HP, 4 cylinders, 1496 cc, 3 13",
-    viewPriceLink: "#view-price",
-    star: 4,
-    variant: "5 Variant",
-    imagesLink: "#images",
-    offerLink: "#offer",
-    imageSrc: "/src/assets/image/popular-truck/popular2.png",
-  },
+  
  
   {
     title: "Tata Venture",
@@ -214,48 +193,5 @@ export const products = [
     imageSrc:
       "https://www.91trucks.com/_next/image?url=https%3A%2F%2Fimages.91trucks.com%2Fbuses%2Fmodels%2F77%2F1604%2Fscania-touring-bus-hd-1251639234.jpg%3Fh%3D180&w=384&q=75",
   },
-  {
-    title: " Super Auto",
-    price: "₹3.02 Lakh",
-    specs: "Electric, 749, Electric, 13",
-    variant: "1 Variant",
-    viewPriceLink: "#view-price",
-    star: 5,
-    imagesLink: "#images",
-    offerLink: "#offer",
-    imageSrc: "/src/assets/image/pick-up/pickup1.png",
-  },
-  {
-    title: " Super Auto",
-    price: "₹3.02 Lakh",
-    specs: "Electric, 749, Electric, 13",
-    viewPriceLink: "#view-price",
-    star: 5,
-    variant: "1 Variant",
-    imagesLink: "#images",
-    offerLink: "#offer",
-    imageSrc: "/src/assets/image/pick-up/pickup1.png",
-  },
-  {
-    title: " Super Auto",
-    price: "₹3.02 Lakh",
-    specs: "Electric, 749, Electric, 13",
-    viewPriceLink: "#view-price",
-    variant: "1 Variant",
-    star: 5,
-    imagesLink: "#images",
-    offerLink: "#offer",
-    imageSrc: "/src/assets/image/pick-up/pickup1.png",
-  },
-  {
-    title: " Super Auto",
-    price: "₹3.02 Lakh",
-    specs: "Electric, 749, Electric, 13",
-    viewPriceLink: "#view-price",
-    star: 5,
-    imagesLink: "#images",
-    offerLink: "#offer",
-    variant: "8 Variant",
-    imageSrc: "/src/assets/image/pick-up/pickup1.png",
-  },
+  
 ];
