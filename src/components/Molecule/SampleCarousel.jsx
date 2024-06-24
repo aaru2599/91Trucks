@@ -20,7 +20,7 @@ const SampleCarousel = () => {
         arrowsClass="z-0"
         autoPlaySpeed={3000}
         centerMode={false}
-        className=" w-[100%] md:h-[350px] h-[110px] "
+        className=" w-[100%] md:h-[370px] h-[110px] "
         containerClass=""
         dotListClass=""
         draggable={false}
